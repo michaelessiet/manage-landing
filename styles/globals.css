@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+
+:root{
+  --bright-red:hsl(12, 88%, 59%);
+  --dark-blue:hsl(228, 39%, 23%);
+  --dark-greyish-blue: hsl(227, 12%, 61%);
+  --very-dark-blue:hsl(233, 12%, 13%);
+  --very-pale-red:hsl(13, 100%, 96%);
+  --very-light-grey:hsl(0, 0%, 98%);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -13,4 +25,35 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1{
+  font-size:80px;
+  color: var(--dark-blue);
+}
+
+h2{
+  font-size: 50px;
+  color: var(--dark-blue);
+}
+
+h3{
+  color: var(--dark-blue);
+}
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.5;
+  color:var(--dark-blue);
+}
+
+@media(max-width:1200px){
+  body{
+    overflow-x: hidden;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  
 }
