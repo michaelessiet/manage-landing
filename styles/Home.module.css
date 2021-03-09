@@ -331,6 +331,11 @@
   flex-direction: row;
 }
 
+.attribution{
+  position: absolute;
+  margin-top:18rem;
+}
+
 @media (max-width: 1200px) {
   .container {
     background-image: url("/images/bg-tablet-pattern.svg"),
@@ -646,7 +651,7 @@
   .outcopyright {
     position: absolute;
     color: #fff;
-    margin-top: 38rem;
+    margin-top: 35rem;
     display: block;
   }
 
@@ -684,5 +689,12 @@
     color: rgb(255, 47, 47);
     font-size: 16px;
     font-style: italic;
+  }
+
+  .attribution{
+    position: absolute;
+    margin-top:39rem;
+    text-align:center;
+    padding:0rem 2rem 0 2rem;
   }
 }

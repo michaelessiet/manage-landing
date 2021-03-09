@@ -291,9 +291,27 @@ export default function Home() {
               </button>
               <p className={styles.errorMessage}>{error}</p>
             </form>
-            <p className={styles.copyright}>Copyright 2020. All Rights Reserved</p>
+            <p className={styles.copyright}>
+              Copyright 2020. All Rights Reserved
+            </p>
           </div>
-          <p className={styles.outcopyright}>Copyright 2020. All Rights Reserved</p>
+          <p className={styles.outcopyright}>
+            Copyright 2020. All Rights Reserved
+          </p>
+          <div className={styles.attribution}>
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a href="https://twitter.com/emsaa2002" target="_blank">
+              Michael Essiet
+            </a>
+            .
+          </div>
         </footer>
       </div>
     </div>
